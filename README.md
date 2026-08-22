@@ -1,2 +1,3 @@
-# cmapss-prediction-rul
-Prédiction de la durée de vie résiduelle (RUL) de moteurs turbofan NASA C-MAPSS . Comparaison Random Forest, XGBoost et LSTM.
+Maintenance prédictive de moteurs d'avion à partir du dataset NASA C-MAPSS.
+
+Ce projet prédit la Remaining Useful Life (RUL) de moteurs à turbine, le nombre de cycles de fonctionnement restants avant défaillance à partir de 21 séries temporelles de mesures capteurs. Deux stratégies de modélisation sont construites et comparées : une approche Machine Learning classique (features statistiques glissantes alimentant des modèles Random Forest et XGBoost) et une approche Deep Learning séquentielle (réseau LSTM sur des fenêtres de 30 cycles). Les modèles sont évalués via le RMSE, le MAE et le score NASA asymétrique, qui pénalise davantage les prédictions tardives (sous-estimation de la RUL) que les prédictions précoces, conformément aux contraintes de sécurité industrielle réelles.
