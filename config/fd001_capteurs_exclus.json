@@ -1,0 +1,13 @@
+{
+  "subset": "FD001",
+  "seuil_variance": 1e-05,
+  "capteurs_exclus": [
+    "sensor_1",
+    "op_setting_3",
+    "sensor_10",
+    "sensor_19",
+    "sensor_18",
+    "sensor_16",
+    "sensor_5"
+  ]
+}
