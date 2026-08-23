@@ -1,17 +1,16 @@
 # ===== Projet C-MAPSS (spécifique) =====
 
 # Données brutes (dataset à télécharger sur Kaggle, jamais versionné)
-data/
+/data/
 
-# Modèles entraînés et objets sérialisés
-*.h5
-*.keras
-*.pkl
-*.joblib
+# Modèles entraînés et objets sérialisés (volumineux, régénérables via les notebooks)
+models/**/*.h5
+models/**/*.keras
+models/**/*.pkl
+models/**/*.joblib
 
-# Sorties générées (figures, prédictions exportées)
-outputs/
-figures/
+# Fichiers Kaggle (credentials API, jamais versionnés)
+kaggle.json
 
 # Éditeurs de code
 .vscode/

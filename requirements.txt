@@ -1,0 +1,23 @@
+# Dépendances du projet — versions figées pour la reproductibilité
+# Installation : pip install -r requirements.txt
+
+# Manipulation de données
+pandas==2.2.3
+numpy==2.2.0
+
+# Machine learning classique
+scikit-learn==1.6.0
+xgboost==3.2.0
+
+# Deep learning
+tensorflow==2.21.0
+
+# Visualisation
+matplotlib==3.10.0
+seaborn==0.13.2
+
+# Notebooks
+jupyterlab==4.3.4
+
+# Accès au dataset Kaggle
+kaggle==2.0.1
