@@ -4,6 +4,7 @@
 # Manipulation de données
 pandas==2.2.3
 numpy==2.2.0
+pyarrow==24.0.0
 
 # Machine learning classique
 scikit-learn==1.6.0
