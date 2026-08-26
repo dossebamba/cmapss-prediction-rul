@@ -1,0 +1,27 @@
+{
+  "subset": "FD001",
+  "modele": "LSTM",
+  "type_modele": "lstm",
+  "fichier_modele": "modele_final_FD001.keras",
+  "fichier_scaler": "scaler_FD001.joblib",
+  "fenetre": 30,
+  "capteurs_retenus": [
+    "sensor_2",
+    "sensor_3",
+    "sensor_4",
+    "sensor_6",
+    "sensor_7",
+    "sensor_8",
+    "sensor_9",
+    "sensor_11",
+    "sensor_12",
+    "sensor_13",
+    "sensor_14",
+    "sensor_15",
+    "sensor_17",
+    "sensor_20",
+    "sensor_21"
+  ],
+  "rul_clip": 125,
+  "score_nasa_moyen_validation": 2.8942423015750665
+}
