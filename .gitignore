@@ -3,11 +3,16 @@
 # Données brutes (dataset à télécharger sur Kaggle, jamais versionné)
 /data/
 
-# Modèles entraînés et objets sérialisés (volumineux, régénérables via les notebooks)
-models/**/*.h5
-models/**/*.keras
-models/**/*.pkl
-models/**/*.joblib
+# Modeles d'entrainement/exploration (volumineux, regenerables via les notebooks)
+# models/final/ n'est pas concerne : c'est le modele livrable, il est versionne.
+models/ml/*.h5
+models/ml/*.keras
+models/ml/*.pkl
+models/ml/*.joblib
+models/dl/*.h5
+models/dl/*.keras
+models/dl/*.pkl
+models/dl/*.joblib
 
 # Fichiers Kaggle (credentials API, jamais versionnés)
 kaggle.json
